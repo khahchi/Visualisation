@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hate Crimes Incidents in the US (2010-2019)</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>Hate Crimes Incidents in the US (2010-2019)</h1>
+        <p>This visualisation aims to demonstrate the trend of the hate crimes incidents based on different bias motivation in the US, especially in the New York state between the period from 2010 to 2019.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <h2>Summary of Incidents across the US</h2>
+      <p>There are almost incidents every where across the country. Overall, the difference between states is not significant; however, we observe that some states have a much larger number of incidents compred to the rest, which are California, Washington, Michigan, Texas and New York.</p>
+    <div id="vis1" class="vis-container"></div>
+    </div>
+  </div>
+    <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+      <div class = "pure-u-1-1">
+      <div class="description description-left">
+        <h2>Number of incidents in New York State</h2>
+        <p>We first would like to look into the relationship between the population and the number of incidents. The data shown on the chart is the total number of incidents calculated from 2010 to 2019. As we can see on the graph, the total incidents are around 20 for the majority of counties, only 5 counties have a much bigger number of data. It can be explained by the fact that these counties have more citizens compared to the rest.   </p>
+      </div>
+      <div>
+  </div>
+  <div class="pure-g">
+      <div class = "pure-u-1-1">
+      <div id="vis2" class="vis-container"></div>
+      </div>
+  </div>
+  <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-right">
+          <h2>Number of incidents by Offense type</h2>
+        </div>
+        </div>
+      </div>
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+            <div id="vis3" class="vis-container"></div>
+          </div>
+    </div>
+    <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <div class="description description-right">
+        <h2>Number of incidents by Location and Bias Motivation</h2>
+      </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+          <div id="vis4" class="vis-container"></div>
+        </div>
+        <div class="pure-u-1-2">
+          <div id="vis5" class="vis-container"></div>
+        </div>
+  </div>
+  <!-- end pure grid group -->
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var specVis1 = "./choroplethmap.vg.json";
+    var specVis2 = "./interactive_chart.vg.json";
+    var specVis3 = "./range_dot.vg.json";
+    var specVis4 = "./linechart.vg.json";
+    var specVis5 = "./barchart.vg.json";
+
+    vegaEmbed('#vis1', specVis1, { "actions": false });
+
+    vegaEmbed('#vis2', specVis2, { "actions": false });
+
+    vegaEmbed('#vis3', specVis3, { "actions": false });
+
+    vegaEmbed('#vis4', specVis4, { "actions": false });
+
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+</body>
+
+</html>

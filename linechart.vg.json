@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Incident by Location",
+    "width": 500, 
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/khahchi/Data-Visualisation-II/main/T2_new.csv"},
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "Year"}, 
+      "y": {"field": "Incident", "type": "quantitative"},
+      "color": {"field": "Location", "type": "nominal"}
+    },
+    "layer": [{
+      "mark": "line"
+    }, {
+      "params": [{
+        "name": "hover",
+        "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}
+      }],
+      "mark": {"type": "circle", "tooltip": true},
+      "encoding": {
+        "opacity": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 1},
+          "value": 0
+        },
+        "size": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 48},
+          "value": 100
+        }
+      }
+    }]
+  }

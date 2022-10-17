@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500, 
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/khahchi/Data-Visualisation-II/main/T3_new.csv"},
+    "transform": [
+      {
+        "filter": {
+          "field": "Year",
+          "oneOf": [2013, 2019]
+        }
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Offenses",
+        "type": "quantitative",
+        "title": "Offenses (years)"
+      },
+      "y": {
+        "field": "Offense type",
+        "type": "nominal",
+        "title": "Offense type",
+        "axis": {
+          "offset": 5,
+          "ticks": false,
+          "minExtent": 70,
+          "domain": false
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "detail": {
+            "field": "Offense type",
+            "type": "nominal"
+          },
+          "color": {"value": "#db646f"}
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true
+        },
+        "encoding": {
+          "color": {
+            "field": "Year",
+            "type": "ordinal"
+            }
+          }
+        }
+      ]   
+  }
+  
