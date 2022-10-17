@@ -1,0 +1,323 @@
+Location,Year,Incident
+Abandoned/condemned structure,2013,0
+Abandoned/condemned structure,2014,2
+Abandoned/condemned structure,2015,2
+Abandoned/condemned structure,2016,2
+Abandoned/condemned structure,2017,3
+Abandoned/condemned structure,2018,3
+Abandoned/condemned structure,2019,4
+Air/bus/train terminal,2013,31
+Air/bus/train terminal,2014,39
+Air/bus/train terminal,2015,57
+Air/bus/train terminal,2016,60
+Air/bus/train terminal,2017,84
+Air/bus/train terminal,2018,67
+Air/bus/train terminal,2019,69
+Arena/stadium/fairgrounds/coliseum,2013,1
+Arena/stadium/fairgrounds/coliseum,2014,1
+Arena/stadium/fairgrounds/coliseum,2015,4
+Arena/stadium/fairgrounds/coliseum,2016,4
+Arena/stadium/fairgrounds/coliseum,2017,3
+Arena/stadium/fairgrounds/coliseum,2018,2
+Arena/stadium/fairgrounds/coliseum,2019,3
+Auto dealership new/used,2013,2
+Auto dealership new/used,2014,1
+Auto dealership new/used,2015,1
+Auto dealership new/used,2016,6
+Auto dealership new/used,2017,6
+Auto dealership new/used,2018,5
+Auto dealership new/used,2019,3
+Bank/savings and loan,2013,4
+Bank/savings and loan,2014,11
+Bank/savings and loan,2015,7
+Bank/savings and loan,2016,11
+Bank/savings and loan,2017,16
+Bank/savings and loan,2018,14
+Bank/savings and loan,2019,16
+Bar/nightclub,2013,53
+Bar/nightclub,2014,48
+Bar/nightclub,2015,55
+Bar/nightclub,2016,49
+Bar/nightclub,2017,52
+Bar/nightclub,2018,53
+Bar/nightclub,2019,66
+Camp/campground,2013,1
+Camp/campground,2014,1
+Camp/campground,2015,1
+Camp/campground,2016,2
+Camp/campground,2017,2
+Camp/campground,2018,4
+Camp/campground,2019,6
+Church/synagogue/temple/mosque,2013,13
+Church/synagogue/temple/mosque,2014,21
+Church/synagogue/temple/mosque,2015,45
+Church/synagogue/temple/mosque,2016,36
+Church/synagogue/temple/mosque,2017,44
+Church/synagogue/temple/mosque,2018,29
+Church/synagogue/temple/mosque,2019,34
+Commercial office building,2013,62
+Commercial office building,2014,28
+Commercial office building,2015,56
+Commercial office building,2016,63
+Commercial office building,2017,90
+Commercial office building,2018,97
+Commercial office building,2019,92
+Community center,2013,0
+Community center,2014,1
+Community center,2015,5
+Community center,2016,5
+Community center,2017,7
+Community center,2018,8
+Community center,2019,8
+Construction site,2013,5
+Construction site,2014,4
+Construction site,2015,9
+Construction site,2016,12
+Construction site,2017,19
+Construction site,2018,13
+Construction site,2019,14
+Convenience store,2013,33
+Convenience store,2014,35
+Convenience store,2015,67
+Convenience store,2016,57
+Convenience store,2017,71
+Convenience store,2018,100
+Convenience store,2019,82
+Daycare facility,2013,1
+Daycare facility,2014,1
+Daycare facility,2015,1
+Daycare facility,2016,2
+Daycare facility,2017,4
+Daycare facility,2018,2
+Daycare facility,2019,3
+Department/discount store,2013,29
+Department/discount store,2014,36
+Department/discount store,2015,48
+Department/discount store,2016,45
+Department/discount store,2017,63
+Department/discount store,2018,63
+Department/discount store,2019,67
+Farm facility,2013,1
+Farm facility,2014,1
+Farm facility,2015,3
+Farm facility,2016,0
+Farm facility,2017,3
+Farm facility,2018,3
+Farm facility,2019,2
+Field/woods,2013,31
+Field/woods,2014,20
+Field/woods,2015,21
+Field/woods,2016,19
+Field/woods,2017,29
+Field/woods,2018,31
+Field/woods,2019,30
+Government/public building,2013,60
+Government/public building,2014,57
+Government/public building,2015,74
+Government/public building,2016,73
+Government/public building,2017,78
+Government/public building,2018,116
+Government/public building,2019,86
+Grocery/supermarket,2013,32
+Grocery/supermarket,2014,24
+Grocery/supermarket,2015,35
+Grocery/supermarket,2016,46
+Grocery/supermarket,2017,57
+Grocery/supermarket,2018,75
+Grocery/supermarket,2019,65
+Highway/road/alley/street/sidewalk,2013,551
+Highway/road/alley/street/sidewalk,2014,493
+Highway/road/alley/street/sidewalk,2015,588
+Highway/road/alley/street/sidewalk,2016,718
+Highway/road/alley/street/sidewalk,2017,778
+Highway/road/alley/street/sidewalk,2018,846
+Highway/road/alley/street/sidewalk,2019,814
+Hotel/motel/etc.,2013,13
+Hotel/motel/etc.,2014,19
+Hotel/motel/etc.,2015,28
+Hotel/motel/etc.,2016,32
+Hotel/motel/etc.,2017,41
+Hotel/motel/etc.,2018,41
+Hotel/motel/etc.,2019,33
+Industrial site,2013,4
+Industrial site,2014,6
+Industrial site,2015,11
+Industrial site,2016,10
+Industrial site,2017,8
+Industrial site,2018,5
+Industrial site,2019,13
+Jail/prison/penitentiary/corrections facility,2013,46
+Jail/prison/penitentiary/corrections facility,2014,29
+Jail/prison/penitentiary/corrections facility,2015,38
+Jail/prison/penitentiary/corrections facility,2016,42
+Jail/prison/penitentiary/corrections facility,2017,42
+Jail/prison/penitentiary/corrections facility,2018,45
+Jail/prison/penitentiary/corrections facility,2019,64
+Lake/waterway/beach,2013,2
+Lake/waterway/beach,2014,4
+Lake/waterway/beach,2015,5
+Lake/waterway/beach,2016,2
+Lake/waterway/beach,2017,8
+Lake/waterway/beach,2018,4
+Lake/waterway/beach,2019,9
+Liquor store,2013,3
+Liquor store,2014,4
+Liquor store,2015,8
+Liquor store,2016,12
+Liquor store,2017,8
+Liquor store,2018,6
+Liquor store,2019,13
+Park/playground,2013,46
+Park/playground,2014,34
+Park/playground,2015,53
+Park/playground,2016,66
+Park/playground,2017,67
+Park/playground,2018,68
+Park/playground,2019,98
+Parking/drop lot/garage,2013,182
+Parking/drop lot/garage,2014,186
+Parking/drop lot/garage,2015,212
+Parking/drop lot/garage,2016,222
+Parking/drop lot/garage,2017,271
+Parking/drop lot/garage,2018,245
+Parking/drop lot/garage,2019,245
+Rental storage facility,2013,1
+Rental storage facility,2014,3
+Rental storage facility,2015,2
+Rental storage facility,2016,5
+Rental storage facility,2017,9
+Rental storage facility,2018,8
+Rental storage facility,2019,10
+Residence/home,2013,976
+Residence/home,2014,828
+Residence/home,2015,1109
+Residence/home,2016,1008
+Residence/home,2017,1133
+Residence/home,2018,1044
+Residence/home,2019,1004
+Rest area,2013,1
+Rest area,2014,1
+Rest area,2015,3
+Rest area,2016,3
+Rest area,2017,2
+Rest area,2018,2
+Rest area,2019,3
+Restaurant,2013,63
+Restaurant,2014,58
+Restaurant,2015,83
+Restaurant,2016,92
+Restaurant,2017,126
+Restaurant,2018,136
+Restaurant,2019,138
+School/college2,2013,111
+School/college2,2014,78
+School/college2,2015,73
+School/college2,2016,67
+School/college2,2017,85
+School/college2,2018,35
+School/college2,2019,28
+School—college/university,2013,47
+School—college/university,2014,73
+School—college/university,2015,85
+School—college/university,2016,107
+School—college/university,2017,129
+School—college/university,2018,155
+School—college/university,2019,93
+School—elementary/secondary,2013,92
+School—elementary/secondary,2014,94
+School—elementary/secondary,2015,103
+School—elementary/secondary,2016,155
+School—elementary/secondary,2017,207
+School—elementary/secondary,2018,153
+School—elementary/secondary,2019,232
+Service/gas station,2013,30
+Service/gas station,2014,35
+Service/gas station,2015,46
+Service/gas station,2016,55
+Service/gas station,2017,58
+Service/gas station,2018,63
+Service/gas station,2019,53
+Shelter—mission/homeless,2013,2
+Shelter—mission/homeless,2014,4
+Shelter—mission/homeless,2015,7
+Shelter—mission/homeless,2016,10
+Shelter—mission/homeless,2017,12
+Shelter—mission/homeless,2018,9
+Shelter—mission/homeless,2019,17
+Shopping mall,2013,3
+Shopping mall,2014,5
+Shopping mall,2015,7
+Shopping mall,2016,6
+Shopping mall,2017,10
+Shopping mall,2018,14
+Shopping mall,2019,8
+"Specialty store (TV, fur, etc.)",2013,22
+"Specialty store (TV, fur, etc.)",2014,25
+"Specialty store (TV, fur, etc.)",2015,25
+"Specialty store (TV, fur, etc.)",2016,28
+"Specialty store (TV, fur, etc.)",2017,51
+"Specialty store (TV, fur, etc.)",2018,56
+"Specialty store (TV, fur, etc.)",2019,36
+Other/unknown,2013,276
+Other/unknown,2014,210
+Other/unknown,2015,269
+Other/unknown,2016,297
+Other/unknown,2017,381
+Other/unknown,2018,334
+Other/unknown,2019,311
+Amusement park,2013,NA
+Amusement park,2014,NA
+Amusement park,2015,1
+Amusement park,2016,0
+Amusement park,2017,2
+Amusement park,2018,2
+Amusement park,2019,2
+Dock/wharf/freight/modal terminal,2013,NA
+Dock/wharf/freight/modal terminal,2014,NA
+Dock/wharf/freight/modal terminal,2015,3
+Dock/wharf/freight/modal terminal,2016,2
+Dock/wharf/freight/modal terminal,2017,1
+Dock/wharf/freight/modal terminal,2018,1
+Dock/wharf/freight/modal terminal,2019,1
+Drug store/doctor's office/hospital,2013,NA
+Drug store/doctor's office/hospital,2014,NA
+Drug store/doctor's office/hospital,2015,50
+Drug store/doctor's office/hospital,2016,49
+Drug store/doctor's office/hospital,2017,49
+Drug store/doctor's office/hospital,2018,63
+Drug store/doctor's office/hospital,2019,56
+Gambling facility/casino/race track,2013,NA
+Gambling facility/casino/race track,2014,NA
+Gambling facility/casino/race track,2015,3
+Gambling facility/casino/race track,2016,3
+Gambling facility/casino/race track,2017,3
+Gambling facility/casino/race track,2018,3
+Gambling facility/casino/race track,2019,1
+Cyberspace,2013,NA
+Cyberspace,2014,NA
+Cyberspace,2015,NA
+Cyberspace,2016,3
+Cyberspace,2017,7
+Cyberspace,2018,15
+Cyberspace,2019,21
+Tribal Lands,2013,NA
+Tribal Lands,2014,NA
+Tribal Lands,2015,NA
+Tribal Lands,2016,NA
+Tribal Lands,2017,NA
+Tribal Lands,2018,1
+Tribal Lands,2019,0
+Multiple locations,2013,NA
+Multiple locations,2014,NA
+Multiple locations,2015,NA
+Multiple locations,2016,NA
+Multiple locations,2017,NA
+Multiple locations,2018,NA
+Multiple locations,2019,10
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2013,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2014,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2015,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2016,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2017,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2018,NA
+1 A multiple-bias incident is an incident in which one or more offense types are motivated by two or more biases.,2019,NA
